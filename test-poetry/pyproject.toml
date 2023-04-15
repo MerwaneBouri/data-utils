@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Merwane Bouri <merwane.bouri@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
