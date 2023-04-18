@@ -8,4 +8,4 @@ fonctions vectorielles. Numpy et Scipy sont fait pour ça.
 
 ## Exemple Faster cloud Diameter 
 
-TODO: faire un dessin pour avoir une intuition
+TODO: faire un dessin pour avoir une intuition + notebook pour visualiser
