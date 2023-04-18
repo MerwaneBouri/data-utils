@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ban"
+version = "0.1.0"
+description = ""
+authors = ["Merwane Bouri <merwane.bouri@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.65.0"
+scipy = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
