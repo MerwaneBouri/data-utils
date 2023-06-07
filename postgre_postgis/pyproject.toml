@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "postgre-postgis"
+version = "0.1.0"
+description = ""
+authors = ["Merwane Bouri <merwane.bouri@gmail.com>"]
+readme = "README.md"
+packages = [{include = "postgre_postgis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fiona = "^1.9.4.post1"
+tqdm = "^4.65.0"
+ipdb = "^0.13.13"
+isort = "^5.12.0"
+black = "^23.3.0"
+psycopg = "^3.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
